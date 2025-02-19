@@ -1,0 +1,16 @@
+name: CustomMoney
+version: '${project.version}'
+main: net.custommoney.CustomMoney
+api-version: '1.13'
+softdepend: [Vault, PlaceholderAPI]
+Author: Sladovatel
+load: STARTUP
+commands:
+    money:
+        description: Main command | Основная каманда
+        usage: /money <give/set/take/bal> <сумма> <ник>
+        aliases: [mn]
+permissions:
+    custommoney.commands:
+        description: Permission to use commands | Разрешение на использованние команд
+        default: op

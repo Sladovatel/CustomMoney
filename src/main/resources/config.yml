@@ -1,0 +1,5 @@
+#Настройка включения и выкючения наград с задержкой, 0 означает выключение 1 означает работу | Configuring delayed rewards on and off, 0 means off 1 means running
+on_give_money: 0
+give_sum: 100
+#Указывать в тиках, 1 секунда = 20 тиков | Specify in ticks, 1 second = 20 ticks
+delay: 20
